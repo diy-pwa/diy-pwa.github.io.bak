@@ -1,0 +1,108 @@
+{
+  "PageLayout.css": {
+    "file": "assets/static/PageLayout.57f81ada.css",
+    "src": "PageLayout.css"
+  },
+  "_0e184ced.js": {
+    "file": "assets/chunks/0e184ced.js"
+  },
+  "_101896b7.js": {
+    "file": "assets/chunks/101896b7.js"
+  },
+  "_9997d795.js": {
+    "file": "assets/chunks/9997d795.js"
+  },
+  "components/DaysLeft.jsx": {
+    "file": "assets/components/DaysLeft.3cb16e0e.js",
+    "imports": [
+      "_0e184ced.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "components/DaysLeft.jsx"
+  },
+  "node_modules/@fontsource/raleway/files/raleway-all-400-normal.woff": {
+    "file": "assets/static/raleway-all-400-normal.e0fbe643.woff",
+    "src": "node_modules/@fontsource/raleway/files/raleway-all-400-normal.woff"
+  },
+  "node_modules/@fontsource/raleway/files/raleway-cyrillic-400-normal.woff2": {
+    "file": "assets/static/raleway-cyrillic-400-normal.679eb908.woff2",
+    "src": "node_modules/@fontsource/raleway/files/raleway-cyrillic-400-normal.woff2"
+  },
+  "node_modules/@fontsource/raleway/files/raleway-cyrillic-ext-400-normal.woff2": {
+    "file": "assets/static/raleway-cyrillic-ext-400-normal.1a60d844.woff2",
+    "src": "node_modules/@fontsource/raleway/files/raleway-cyrillic-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/raleway/files/raleway-latin-400-normal.woff2": {
+    "file": "assets/static/raleway-latin-400-normal.c78a1da5.woff2",
+    "src": "node_modules/@fontsource/raleway/files/raleway-latin-400-normal.woff2"
+  },
+  "node_modules/@fontsource/raleway/files/raleway-latin-ext-400-normal.woff2": {
+    "file": "assets/static/raleway-latin-ext-400-normal.293dc7f5.woff2",
+    "src": "node_modules/@fontsource/raleway/files/raleway-latin-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/raleway/files/raleway-vietnamese-400-normal.woff2": {
+    "file": "assets/static/raleway-vietnamese-400-normal.917d91f1.woff2",
+    "src": "node_modules/@fontsource/raleway/files/raleway-vietnamese-400-normal.woff2"
+  },
+  "node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
+    "dynamicImports": [
+      "pages/index.page.mdx",
+      "renderer/_default.page.client.jsx",
+      "renderer/_default.page.server.jsx?extractAssets&lang.jsx"
+    ],
+    "file": "assets/entry-server-routing.3c68289f.js",
+    "imports": [
+      "_9997d795.js",
+      "_101896b7.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/vite-plugin-ssr/dist/esm/client/entry.js"
+  },
+  "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
+    "dynamicImports": [
+      "pages/index.page.mdx",
+      "renderer/_default.page.client.jsx",
+      "renderer/_default.page.server.jsx?extractAssets&lang.jsx"
+    ],
+    "file": "assets/entry-client-routing.73adf511.js",
+    "imports": [
+      "_9997d795.js",
+      "_101896b7.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js"
+  },
+  "pages/index.page.mdx": {
+    "dynamicImports": [
+      "components/DaysLeft.jsx"
+    ],
+    "file": "assets/pages/index.page.c3de28df.js",
+    "imports": [
+      "_0e184ced.js",
+      "_101896b7.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "pages/index.page.mdx"
+  },
+  "renderer/_default.page.client.jsx": {
+    "css": [
+      "assets/static/PageLayout.57f81ada.css"
+    ],
+    "file": "assets/renderer/default.page.client.8d3fb29d.js",
+    "imports": [
+      "_0e184ced.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "renderer/_default.page.client.jsx"
+  },
+  "renderer/_default.page.server.jsx?extractAssets&lang.jsx": {
+    "css": [
+      "assets/static/PageLayout.57f81ada.css"
+    ],
+    "file": "assets/chunks/ca66eca0.js",
+    "isDynamicEntry": true,
+    "src": "renderer/_default.page.server.jsx?extractAssets&lang.jsx"
+  }
+}
