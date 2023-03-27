@@ -1,10 +1,11 @@
 import React from 'react';
+import InnerNav from './InnerNav.jsx';
 
-// <DaysLedt> is:
+// <InnerNav> is:
 //  - Lazy-loaded
 //  - Loaded and rendered only in the browser
 export default function(props) {
-    const [Component, setComponent] = React.useState(() => Loading)
+    const [Component, setComponent] = React.useState(() => InnerNav)
   
     // useEffect() callbacks are only run in the browser, consequently the map component
     // is loaded and rendererd only in the browser.
@@ -13,12 +14,9 @@ export default function(props) {
     }, [])
   
     return (
-      <React.Suspense fallback={<Loading />}>
+      <React.Suspense fallback={<InnerNav navData={props.navData} />}>
         <Component navData={props.navData}/>
       </React.Suspense>
     )
   }
   
-  function Loading() {
-    return <span></span>
-  }

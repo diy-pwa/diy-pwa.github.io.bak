@@ -1,4 +1,5 @@
 import './InnerNav.css';
+import '@fortawesome/fontawesome-free/css/all.css';
 
 export default function (props) {
   return (
