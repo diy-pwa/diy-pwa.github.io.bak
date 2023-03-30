@@ -1,4 +1,8 @@
 {
+  "Main.css": {
+    "file": "assets/static/Main.11dd07c3.css",
+    "src": "Main.css"
+  },
   "PageLayout.css": {
     "file": "assets/static/PageLayout.57f81ada.css",
     "src": "PageLayout.css"
@@ -9,8 +13,27 @@
   "_101896b7.js": {
     "file": "assets/chunks/101896b7.js"
   },
-  "_9997d795.js": {
-    "file": "assets/chunks/9997d795.js"
+  "_1c0d87a5.js": {
+    "assets": [
+      "assets/static/fa-brands-400.74833209.woff2",
+      "assets/static/fa-brands-400.20c4a58b.ttf",
+      "assets/static/fa-regular-400.8e7e5ea1.woff2",
+      "assets/static/fa-regular-400.528d022d.ttf",
+      "assets/static/fa-solid-900.7152a693.woff2",
+      "assets/static/fa-solid-900.67a65763.ttf",
+      "assets/static/fa-v4compatibility.694a17c3.woff2",
+      "assets/static/fa-v4compatibility.0515a423.ttf"
+    ],
+    "css": [
+      "assets/static/Main.11dd07c3.css"
+    ],
+    "file": "assets/chunks/1c0d87a5.js",
+    "imports": [
+      "_0e184ced.js"
+    ]
+  },
+  "_5595a2b5.js": {
+    "file": "assets/chunks/5595a2b5.js"
   },
   "components/DaysLeft.jsx": {
     "file": "assets/components/DaysLeft.3cb16e0e.js",
@@ -44,15 +67,48 @@
     "file": "assets/static/raleway-vietnamese-400-normal.917d91f1.woff2",
     "src": "node_modules/@fontsource/raleway/files/raleway-vietnamese-400-normal.woff2"
   },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf": {
+    "file": "assets/static/fa-brands-400.20c4a58b.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2": {
+    "file": "assets/static/fa-brands-400.74833209.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf": {
+    "file": "assets/static/fa-regular-400.528d022d.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2": {
+    "file": "assets/static/fa-regular-400.8e7e5ea1.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf": {
+    "file": "assets/static/fa-solid-900.67a65763.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2": {
+    "file": "assets/static/fa-solid-900.7152a693.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.ttf": {
+    "file": "assets/static/fa-v4compatibility.0515a423.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2": {
+    "file": "assets/static/fa-v4compatibility.694a17c3.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2"
+  },
   "node_modules/vite-plugin-ssr/dist/esm/client/entry.js": {
     "dynamicImports": [
+      "pages/contact.page.mdx",
       "pages/index.page.mdx",
       "renderer/_default.page.client.jsx",
       "renderer/_default.page.server.jsx?extractAssets&lang.jsx"
     ],
-    "file": "assets/entry-server-routing.3c68289f.js",
+    "file": "assets/entry-server-routing.9521fec3.js",
     "imports": [
-      "_9997d795.js",
+      "_5595a2b5.js",
       "_101896b7.js"
     ],
     "isEntry": true,
@@ -60,25 +116,37 @@
   },
   "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js": {
     "dynamicImports": [
+      "pages/contact.page.mdx",
       "pages/index.page.mdx",
       "renderer/_default.page.client.jsx",
       "renderer/_default.page.server.jsx?extractAssets&lang.jsx"
     ],
-    "file": "assets/entry-client-routing.73adf511.js",
+    "file": "assets/entry-client-routing.53d8d1c2.js",
     "imports": [
-      "_9997d795.js",
+      "_5595a2b5.js",
       "_101896b7.js"
     ],
     "isEntry": true,
     "src": "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js"
   },
+  "pages/contact.page.mdx": {
+    "file": "assets/pages/contact.page.49179e4d.js",
+    "imports": [
+      "_0e184ced.js",
+      "_1c0d87a5.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "pages/contact.page.mdx"
+  },
   "pages/index.page.mdx": {
     "dynamicImports": [
       "components/DaysLeft.jsx"
     ],
-    "file": "assets/pages/index.page.c3de28df.js",
+    "file": "assets/pages/index.page.562c7764.js",
     "imports": [
       "_0e184ced.js",
+      "_1c0d87a5.js",
       "_101896b7.js"
     ],
     "isDynamicEntry": true,
