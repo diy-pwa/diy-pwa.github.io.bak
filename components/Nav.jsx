@@ -19,7 +19,7 @@ export default function (props) {
           {props.navData.text}
         </a>
         {/*<!-- Right-sided navbar links -->*/}
-        <div className="w3-right w3-hide-small">
+        <div>
           {props.navData.items.map((item) => (
             <a href={item.to}>
               {item.text}
@@ -30,7 +30,7 @@ export default function (props) {
 
         <a
           href="#"
-          className="w3-right w3-hide-large w3-hide-medium"
+          aria-label="openSideNav"
           onClick={toggle}
         >
           <i className="fa fa-bars"></i>
@@ -45,7 +45,6 @@ export default function (props) {
           href="#"
           onClick={toggle}
           aria-label="close"
-          className="w3-large w3-padding-16"
         >
           Close &times;
         </a>
