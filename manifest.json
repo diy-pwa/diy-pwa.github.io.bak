@@ -7,13 +7,16 @@
     "file": "assets/static/PageLayout.57f81ada.css",
     "src": "PageLayout.css"
   },
+  "_02b99e7a.js": {
+    "file": "assets/chunks/02b99e7a.js"
+  },
   "_0e184ced.js": {
     "file": "assets/chunks/0e184ced.js"
   },
   "_101896b7.js": {
     "file": "assets/chunks/101896b7.js"
   },
-  "_1c0d87a5.js": {
+  "_e73c3b8d.js": {
     "assets": [
       "assets/static/fa-brands-400.74833209.woff2",
       "assets/static/fa-brands-400.20c4a58b.ttf",
@@ -27,13 +30,10 @@
     "css": [
       "assets/static/Main.11dd07c3.css"
     ],
-    "file": "assets/chunks/1c0d87a5.js",
+    "file": "assets/chunks/e73c3b8d.js",
     "imports": [
       "_0e184ced.js"
     ]
-  },
-  "_5595a2b5.js": {
-    "file": "assets/chunks/5595a2b5.js"
   },
   "components/DaysLeft.jsx": {
     "file": "assets/components/DaysLeft.3cb16e0e.js",
@@ -106,9 +106,9 @@
       "renderer/_default.page.client.jsx",
       "renderer/_default.page.server.jsx?extractAssets&lang.jsx"
     ],
-    "file": "assets/entry-server-routing.9521fec3.js",
+    "file": "assets/entry-server-routing.1c1938f6.js",
     "imports": [
-      "_5595a2b5.js",
+      "_02b99e7a.js",
       "_101896b7.js"
     ],
     "isEntry": true,
@@ -121,19 +121,19 @@
       "renderer/_default.page.client.jsx",
       "renderer/_default.page.server.jsx?extractAssets&lang.jsx"
     ],
-    "file": "assets/entry-client-routing.53d8d1c2.js",
+    "file": "assets/entry-client-routing.ac0c2ef3.js",
     "imports": [
-      "_5595a2b5.js",
+      "_02b99e7a.js",
       "_101896b7.js"
     ],
     "isEntry": true,
     "src": "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js"
   },
   "pages/contact.page.mdx": {
-    "file": "assets/pages/contact.page.49179e4d.js",
+    "file": "assets/pages/contact.page.6ffb7ce8.js",
     "imports": [
       "_0e184ced.js",
-      "_1c0d87a5.js"
+      "_e73c3b8d.js"
     ],
     "isDynamicEntry": true,
     "isEntry": true,
@@ -143,10 +143,10 @@
     "dynamicImports": [
       "components/DaysLeft.jsx"
     ],
-    "file": "assets/pages/index.page.562c7764.js",
+    "file": "assets/pages/index.page.332e5510.js",
     "imports": [
       "_0e184ced.js",
-      "_1c0d87a5.js",
+      "_e73c3b8d.js",
       "_101896b7.js"
     ],
     "isDynamicEntry": true,
