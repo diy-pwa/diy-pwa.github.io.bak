@@ -1,6 +1,10 @@
-import Nav from './InnerNav.jsx';
-export const menuItems = [{text: "Contact", href: "contact", icon: "fa fa-envelope"}];
+import Nav from './Nav.jsx';
+export const menuItems = {
+  text: 'Logo',
+  to: '/',
+  items: [{ text: 'Contact', to: 'contact', icon: 'fa fa-envelope' }],
+};
 
 <header className="w3-display-topleft w3-xlarge">
-<Nav navData={menuItems} />
+  <Nav navData={menuItems} />
 </header>
