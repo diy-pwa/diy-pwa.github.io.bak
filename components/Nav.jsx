@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './Nav.css';
 import '@fortawesome/fontawesome-free/css/all.css';
 
 export default function (props) {
@@ -15,14 +14,14 @@ export default function (props) {
   return (
     <nav>
       {/*<!-- Navbar (sit on top) -->*/}
-      <div className="w3-bar w3-white w3-card w3-top">
-        <a href={props.navData.to} className="w3-bar-item w3-button w3-wide">
+      <div role="navigation" aria-label='topNav'>
+        <a href={props.navData.to} className="w3-wide">
           {props.navData.text}
         </a>
         {/*<!-- Right-sided navbar links -->*/}
         <div className="w3-right w3-hide-small">
           {props.navData.items.map((item) => (
-            <a href={item.to} className="w3-bar-item w3-button">
+            <a href={item.to}>
               {item.text}
             </a>
           ))}
@@ -31,7 +30,7 @@ export default function (props) {
 
         <a
           href="#"
-          className="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+          className="w3-right w3-hide-large w3-hide-medium"
           onClick={toggle}
         >
           <i className="fa fa-bars"></i>
@@ -39,13 +38,14 @@ export default function (props) {
       </div>
 
       {/*<!-- Sidebar on small screens when clicking the menu icon -->*/}
-      <div
+      <div role="navigation" aria-label='sideNav'
         className={sClassName}
       >
         <a
           href="#"
           onClick={toggle}
-          className="w3-bar-item w3-button w3-large w3-padding-16"
+          aria-label="close"
+          className="w3-large w3-padding-16"
         >
           Close &times;
         </a>
@@ -53,7 +53,6 @@ export default function (props) {
           <a
             href={item.to}
             onClick={toggle}
-            className="w3-bar-item w3-button"
           >
             {item.text}
           </a>
