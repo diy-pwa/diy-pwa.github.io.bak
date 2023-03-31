@@ -15,7 +15,7 @@ export default function (props) {
     <nav>
       {/*<!-- Navbar (sit on top) -->*/}
       <div role="navigation" aria-label='topNav'>
-        <a href={props.navData.to} className="w3-wide">
+        <a href={props.navData.to} aria-label='home'>
           {props.navData.text}
         </a>
         {/*<!-- Right-sided navbar links -->*/}

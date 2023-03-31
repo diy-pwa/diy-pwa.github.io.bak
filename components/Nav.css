@@ -1,3 +1,5 @@
+/* css for nav in w3.css startup template */
+
 nav .hidden {
     display: none;
 }
@@ -16,6 +18,10 @@ nav [aria-label="topNav"] {
 nav [aria-label="topNav"] div {
     display: none;
     float: right;
+}
+
+nav [aria-label="home"]{
+    letter-spacing: 4px;
 }
 
 nav a {
@@ -50,12 +56,6 @@ nav [aria-label="openSideNav"] {
         display: inline-block;
     }
     nav [aria-label="openSideNav"] {
-        display: none !important;
-    }
-}
-
-@media (min-width: 993px) {
-    nav [aria-label="openSideNav"] {
-        display: none !important;
+        display: none;
     }
 }
