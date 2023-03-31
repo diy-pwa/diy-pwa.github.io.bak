@@ -20,8 +20,8 @@ export default function (props) {
         </a>
         {/*<!-- Right-sided navbar links -->*/}
         <div>
-          {props.navData.items.map((item) => (
-            <a href={item.to}>
+          {props.navData.items.map((item, key) => (
+            <a key={key} href={item.to}>
               {item.text}
             </a>
           ))}
@@ -48,8 +48,8 @@ export default function (props) {
         >
           Close &times;
         </a>
-        {props.navData.items.map((item) => (
-          <a
+        {props.navData.items.map((item,key) => (
+          <a key={key}
             href={item.to}
             onClick={toggle}
           >
