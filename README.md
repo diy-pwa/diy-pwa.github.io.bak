@@ -9,7 +9,7 @@ This is meant to be used with the command line interface `diy-pwa create`
 3. `npm run dev`
 
 You can also access this on stackblitz directly
-[Edit on StackBlitz ⚡️](https://stackblitz.com/github/diy-pwa/diy-pwa.github.io)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/github/diy-pwa/coming-soon)
 
 To publish this on cloudflare pages from stackblitz:
 
