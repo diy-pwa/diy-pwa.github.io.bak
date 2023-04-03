@@ -19,7 +19,7 @@
     ]
   },
   "components/DaysLeft.jsx": {
-    "file": "assets/components/DaysLeft.7faa1cc0.js",
+    "file": "assets/components/DaysLeft.1ab6afd0.js",
     "imports": [
       "_0e184ced.js"
     ],
@@ -57,7 +57,7 @@
       "renderer/_default.page.client.jsx",
       "renderer/_default.page.server.jsx?extractAssets&lang.jsx"
     ],
-    "file": "assets/entry-server-routing.ff70d8f9.js",
+    "file": "assets/entry-server-routing.097c7e3c.js",
     "imports": [
       "_02b99e7a.js",
       "_101896b7.js"
@@ -72,7 +72,7 @@
       "renderer/_default.page.client.jsx",
       "renderer/_default.page.server.jsx?extractAssets&lang.jsx"
     ],
-    "file": "assets/entry-client-routing.3133d451.js",
+    "file": "assets/entry-client-routing.c7395b8a.js",
     "imports": [
       "_02b99e7a.js",
       "_101896b7.js"
@@ -84,7 +84,7 @@
     "dynamicImports": [
       "components/DaysLeft.jsx"
     ],
-    "file": "assets/pages/en/index.page.ddcb2a7d.js",
+    "file": "assets/pages/en/index.page.3c3a99f4.js",
     "imports": [
       "_0e184ced.js",
       "_4b52f678.js",
@@ -98,7 +98,7 @@
     "dynamicImports": [
       "components/DaysLeft.jsx"
     ],
-    "file": "assets/pages/fr/index.page.1be0b64b.js",
+    "file": "assets/pages/fr/index.page.b9ced94a.js",
     "imports": [
       "_0e184ced.js",
       "_4b52f678.js",
