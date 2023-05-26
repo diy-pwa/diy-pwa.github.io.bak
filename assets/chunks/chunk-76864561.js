@@ -1,0 +1,1 @@
+import{j as e}from"./chunk-735224b2.js";function t(n){return e("header",{className:"w3-display-topleft w3-padding-large w3-xlarge",children:"Logo"})}function o(n={}){const{wrapper:a}=n.components||{};return a?e(a,Object.assign({},n,{children:e(t,n)})):t()}function i({children:n}){return e("main",{className:"w3-display-middle",children:n})}export{o as M,i as a};

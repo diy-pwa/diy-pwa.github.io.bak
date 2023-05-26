@@ -1595,11 +1595,60 @@ function registerRoute(capture, handler, method) {
     return route;
 }
 
+var name = "node-starter";
+var version = "0.0.0";
+var type = "module";
+var scripts = {
+	test: "vitest run",
+	start: "vite dev",
+	dev: "vite dev",
+	build: "vite build",
+	preview: "vite build && vite preview",
+	predeploy: "vite build",
+	deploy: "gh-pages -d dist/client"
+};
+var devDependencies = {
+	"@fontsource/raleway": "^4.5.12",
+	"@mdx-js/mdx": "^2.3.0",
+	"@mdx-js/react": "^2.3.0",
+	"@mdx-js/rollup": "^2.3.0",
+	"@rollup/plugin-json": "^6.0.0",
+	"@vitejs/plugin-react": "^3.1.0",
+	cheerio: "*",
+	"gh-pages": "^5.0.0",
+	react: "^18.2.0",
+	"react-dom": "^18.2.0",
+	"react-streaming": "^0.3.5",
+	vite: "^4.2.0",
+	"vite-plugin-ssr": "^0.4.98",
+	vitest: "^0.29.3",
+	"w3-css": "^4.1.0",
+	"workbox-cacheable-response": "^6.5.4",
+	"workbox-routing": "^6.5.4",
+	"workbox-strategies": "^6.5.4"
+};
+var dependencies = {
+	"@rollup/plugin-node-resolve": "^15.0.2",
+	"@rollup/plugin-replace": "^5.0.2"
+};
+var config = {
+	name: name,
+	version: version,
+	type: type,
+	scripts: scripts,
+	devDependencies: devDependencies,
+	dependencies: dependencies,
+	"io_github_diy-pwa_languages": [
+	"en",
+	"fr"
+]
+};
+
 // Array of supported localizations
-const languages = ['en', 'fr'];
 
 var getSupportedLanguage = ()=>{
     const sAccept = navigator.language;
+    const languages = config['io_github_diy-pwa_languages'];
     let sLang = null;
     for(let n= 0; n < languages.length; n++){
         const re = new RegExp(`^${languages[n]}`);

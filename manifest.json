@@ -1,30 +1,34 @@
 {
-  "PageLayout.css": {
-    "file": "assets/static/PageLayout.e1dac7b2.css",
-    "src": "PageLayout.css"
+  "_chunk-101896b7.js": {
+    "file": "assets/chunks/chunk-101896b7.js"
   },
-  "_02b99e7a.js": {
-    "file": "assets/chunks/02b99e7a.js"
+  "_chunk-6bd835bd.js": {
+    "file": "assets/chunks/chunk-6bd835bd.js"
   },
-  "_0e184ced.js": {
-    "file": "assets/chunks/0e184ced.js"
+  "_chunk-735224b2.js": {
+    "file": "assets/chunks/chunk-735224b2.js"
   },
-  "_101896b7.js": {
-    "file": "assets/chunks/101896b7.js"
-  },
-  "_4b52f678.js": {
-    "file": "assets/chunks/4b52f678.js",
+  "_chunk-76864561.js": {
+    "file": "assets/chunks/chunk-76864561.js",
     "imports": [
-      "_0e184ced.js"
+      "_chunk-735224b2.js"
     ]
   },
   "components/DaysLeft.jsx": {
-    "file": "assets/components/DaysLeft.1ab6afd0.js",
+    "file": "assets/chunks/chunk-043d5c5a.js",
     "imports": [
-      "_0e184ced.js"
+      "_chunk-735224b2.js"
     ],
     "isDynamicEntry": true,
     "src": "components/DaysLeft.jsx"
+  },
+  "components/Redirect.jsx": {
+    "file": "assets/chunks/chunk-a1ce1628.js",
+    "imports": [
+      "_chunk-735224b2.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "components/Redirect.jsx"
   },
   "node_modules/@fontsource/raleway/files/raleway-all-400-normal.woff": {
     "file": "assets/static/raleway-all-400-normal.e0fbe643.woff",
@@ -54,13 +58,14 @@
     "dynamicImports": [
       "pages/en/index.page.mdx",
       "pages/fr/index.page.mdx",
+      "pages/index.page.mdx",
       "renderer/_default.page.client.jsx",
       "renderer/_default.page.server.jsx?extractAssets&lang.jsx"
     ],
-    "file": "assets/entry-server-routing.097c7e3c.js",
+    "file": "assets/entries/entry-server-routing.900b375d.js",
     "imports": [
-      "_02b99e7a.js",
-      "_101896b7.js"
+      "_chunk-6bd835bd.js",
+      "_chunk-101896b7.js"
     ],
     "isEntry": true,
     "src": "node_modules/vite-plugin-ssr/dist/esm/client/entry.js"
@@ -69,13 +74,14 @@
     "dynamicImports": [
       "pages/en/index.page.mdx",
       "pages/fr/index.page.mdx",
+      "pages/index.page.mdx",
       "renderer/_default.page.client.jsx",
       "renderer/_default.page.server.jsx?extractAssets&lang.jsx"
     ],
-    "file": "assets/entry-client-routing.c7395b8a.js",
+    "file": "assets/entries/entry-client-routing.cfcf8c14.js",
     "imports": [
-      "_02b99e7a.js",
-      "_101896b7.js"
+      "_chunk-6bd835bd.js",
+      "_chunk-101896b7.js"
     ],
     "isEntry": true,
     "src": "node_modules/vite-plugin-ssr/dist/esm/client/router/entry.js"
@@ -84,11 +90,11 @@
     "dynamicImports": [
       "components/DaysLeft.jsx"
     ],
-    "file": "assets/pages/en/index.page.3c3a99f4.js",
+    "file": "assets/entries/pages_en_index.page.2152b25c.js",
     "imports": [
-      "_0e184ced.js",
-      "_4b52f678.js",
-      "_101896b7.js"
+      "_chunk-735224b2.js",
+      "_chunk-76864561.js",
+      "_chunk-101896b7.js"
     ],
     "isDynamicEntry": true,
     "isEntry": true,
@@ -98,33 +104,56 @@
     "dynamicImports": [
       "components/DaysLeft.jsx"
     ],
-    "file": "assets/pages/fr/index.page.b9ced94a.js",
+    "file": "assets/entries/pages_fr_index.page.0db2fcc3.js",
     "imports": [
-      "_0e184ced.js",
-      "_4b52f678.js",
-      "_101896b7.js"
+      "_chunk-735224b2.js",
+      "_chunk-76864561.js",
+      "_chunk-101896b7.js"
     ],
     "isDynamicEntry": true,
     "isEntry": true,
     "src": "pages/fr/index.page.mdx"
   },
-  "renderer/_default.page.client.jsx": {
-    "css": [
-      "assets/static/PageLayout.e1dac7b2.css"
+  "pages/index.page.mdx": {
+    "dynamicImports": [
+      "components/Redirect.jsx"
     ],
-    "file": "assets/renderer/default.page.client.8e008122.js",
+    "file": "assets/entries/pages_index.page.3e3bb250.js",
     "imports": [
-      "_0e184ced.js"
+      "_chunk-735224b2.js",
+      "_chunk-101896b7.js"
+    ],
+    "isDynamicEntry": true,
+    "isEntry": true,
+    "src": "pages/index.page.mdx"
+  },
+  "renderer/_default.page.client.jsx": {
+    "file": "assets/entries/renderer_default.page.client.89c76497.js",
+    "imports": [
+      "_chunk-735224b2.js",
+      "renderer/_default.page.server.jsx?extractAssets&lang.jsx"
     ],
     "isDynamicEntry": true,
     "isEntry": true,
     "src": "renderer/_default.page.client.jsx"
   },
+  "renderer/_default.page.server.jsx?extractAssets&lang.css": {
+    "file": "assets/static/default.page.server.e1dac7b2.css",
+    "src": "renderer/_default.page.server.jsx?extractAssets&lang.css"
+  },
   "renderer/_default.page.server.jsx?extractAssets&lang.jsx": {
-    "css": [
-      "assets/static/PageLayout.e1dac7b2.css"
+    "assets": [
+      "assets/static/raleway-cyrillic-ext-400-normal.1a60d844.woff2",
+      "assets/static/raleway-all-400-normal.e0fbe643.woff",
+      "assets/static/raleway-cyrillic-400-normal.679eb908.woff2",
+      "assets/static/raleway-vietnamese-400-normal.917d91f1.woff2",
+      "assets/static/raleway-latin-ext-400-normal.293dc7f5.woff2",
+      "assets/static/raleway-latin-400-normal.c78a1da5.woff2"
     ],
-    "file": "assets/chunks/66e73832.js",
+    "css": [
+      "assets/static/default.page.server.e1dac7b2.css"
+    ],
+    "file": "assets/chunks/chunk-fde38522.js",
     "isDynamicEntry": true,
     "src": "renderer/_default.page.server.jsx?extractAssets&lang.jsx"
   }
